@@ -1,0 +1,189 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+/*index*/
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url(https://thumbs.dreamstime.com/b/vista-de-cierre-fondo-papel-creativo-color-marr%C3%B3n-claro-imagen-extra-grande-y-muy-detallada-188862817.jpg); }
+
+.fotopcpal {
+  width: 100%;
+  height: 100%; }
+  .fotopcpal:hover {
+    transition: all 1S;
+    transform: scale(1.1, 0.1 0.1); }
+
+.logos {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 50px;
+  transition: all 1s; }
+
+.card:hover {
+  transform: scale(1.01, 1.01);
+  transition: all 1s; }
+
+.bi-facebook:hover {
+  opacity: 0.5;
+  border-radius: 30px; }
+
+.bi-instagram:hover {
+  opacity: 0.5;
+  border-radius: 30px; }
+
+.bi-whatsapp:hover {
+  opacity: 0.5;
+  border-radius: 30px; }
+
+/*footer*/
+footer {
+  width: 100%;
+  padding: 50px 0px;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/002/091/660/non_2x/abstract-line-white-and-gray-color-modern-background-design-illustration-vector.jpg);
+  background-size: cover; }
+
+.container__footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto; }
+
+.box__footer .terminos {
+  width: 400px;
+  margin-top: 20px;
+  font-weight: 500;
+  color: #7a7a7a;
+  font-size: 18px; }
+
+.box__footer {
+  display: flex;
+  flex-direction: column;
+  padding: 30px; }
+  .box__footer a {
+    margin-top: 10px;
+    color: #7a7a7a;
+    font-weight: 600; }
+    .box__footer a:hover {
+      opacity: 0.8; }
+  .box__footer h2 {
+    margin-top: 30px;
+    color: #7a7a7a;
+    font-weight: 700; }
+  .box__footer .log img {
+    width: 400px; }
+
+.box__footer a bi {
+  font-size: 20px; }
+
+.box__copyright {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 0px 40px; }
+  .box__copyright p {
+    margin-top: 20px;
+    color: #7a7a7a; }
+
+a {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-decoration: none; }
+
+main {
+  background: url("foto pag pcpal.jpg"); }
+
+main {
+  margin-top: 20px; }
+
+.video {
+  margin-top: 20px;
+  margin-left: 600px;
+  width: 3rem;
+  margin-block-end: 20px; }
+
+/*galeria*/
+.contenedor-galeria {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 30px; }
+
+.galeria {
+  width: 325px;
+  height: 200px;
+  margin-bottom: 20px;
+  object-fit: cover;
+  filter: brightness(60%);
+  cursor: pointer; }
+  .galeria:hover {
+    filter: brightness(100%);
+    transition: all 1.5s;
+    transform: scale(1.06); }
+
+/*reserva*/
+.fondoreserva {
+  background-image: URL("https://images7.alphacoders.com/600/thumb-1920-600594.jpg");
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  margin: 0;
+  font-family: monospace; }
+
+form {
+  width: 450px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border-radius: 8px; }
+
+h2 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px; }
+
+input, textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none;
+  opacity: .7; }
+
+textarea {
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%; }
+
+#boton {
+  background: #31384a;
+  color: white;
+  padding: 20px;
+  transition: all 1s; }
+  #boton:hover {
+    cursor: pointer;
+    transform: scale(1.1, 1.1); }
+
+@media (max-width: 480px) {
+  form {
+    width: 100%; } }
+
+.logos {
+  transition: all 1s; }
+
+.bi-facebook:hover {
+  opacity: 0.5;
+  border-radius: 20px; }
+
+.bi-instagram:hover {
+  opacity: 0.5; }
+
+.bi-whatsapp:hover {
+  opacity: 0.5; }

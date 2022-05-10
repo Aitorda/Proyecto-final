@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*index*/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(https://thumbs.dreamstime.com/b/vista-de-cierre-fondo-papel-creativo-color-marr%C3%B3n-claro-imagen-extra-grande-y-muy-detallada-188862817.jpg);} 
+
+.fotopcpal{
+        width: 100%;
+        height: 100%;
+    
+  
+    &:hover{
+    transition: all 1S;
+    transform: scale(1.1, .1.1) };
+}
+.logos {
+    text-align: center;
+    font-size: 40px; 
+    margin-top: 50px;
+    transition: all 1s; 
+
+}
+      
+.card:hover {
+    transform: scale(1.01, 1.01);
+    transition: all 1s; }
+  
+.bi-facebook:hover {
+    opacity: $opacidadlogo;
+    border-radius:$bordes ; }
+      
+.bi-instagram:hover {
+     opacity: $opacidadlogo;
+     border-radius: $bordes; }
+      
+.bi-whatsapp:hover {
+        opacity: $opacidadlogo;
+        border-radius: $bordes; }
+   
+/*footer*/
+footer{
+    width: 100%;
+    padding: 50px 0px;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/091/660/non_2x/abstract-line-white-and-gray-color-modern-background-design-illustration-vector.jpg);
+    background-size: cover;
+}
+.container__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    
+}
+.box__footer .terminos{
+    width: 400px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: $color;
+    font-size: 18px;
+     
+}
+.box__footer{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+        a{
+            margin-top: 10px;
+            color: $color;
+            font-weight: 600;
+            &:hover{
+                opacity: 0.8;
+            }
+        }
+           
+        h2{
+            margin-top: $bordes;
+            color:$color;
+            font-weight: 700;
+            
+        }
+    
+    .log img{
+        width: 400px;
+    }    
+} 
+
+.box__footer a bi{
+    font-size: 20px;
+}
+.box__copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+    p{
+        margin-top: $margens;
+        color: $color;
+    }
+}
+a{
+    font-family: $letrafooter ;
+    text-decoration: none;
+}
+main{
+   background: url("foto pag pcpal.jpg");
+}
+main{
+    margin-top: $margens;
+}
+.video{
+    margin-top: 20px;
+    margin-left: 600px;
+    width: 3rem;
+    margin-block-end: $margens;
+    
+}
+

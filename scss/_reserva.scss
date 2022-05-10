@@ -1,0 +1,73 @@
+/*reserva*/
+@mixin fondoreserva {
+    background-image:URL("https://images7.alphacoders.com/600/thumb-1920-600594.jpg");
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: monospace;
+}
+.fondoreserva{
+    @include fondoreserva;
+}
+form{
+    width: 450px;
+    margin: auto;
+    background: rgba(0,0,0,0.1);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    
+    border-radius: 8px;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-size: $bordes;
+    margin-bottom: $margens;
+    
+}
+input, textarea{
+    width: 100%;
+    margin-bottom: $margens;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+    opacity: .7;
+}
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+#boton{
+    background:#31384a ;
+    color: white;
+    padding: $margens;
+    transition: all 1s;
+        &:hover{
+            cursor: pointer;
+            transform: scale(1.1,1.1);
+        }
+    
+}
+@media(max-width:480px) {
+    form{
+        width: 100%;
+    }
+}
+.logos{
+    transition: all 1s;
+}
+.bi-facebook:hover{
+    opacity: $opacidadlogo;
+    border-radius: $margens;
+    
+}
+.bi-instagram:hover{
+    opacity: $opacidadlogo;
+    
+}
+.bi-whatsapp:hover{ 
+    opacity: $opacidadlogo
+    
+}
