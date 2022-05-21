@@ -12,43 +12,15 @@ body {
 .fotopcpal{
         width: 100%;
         height: 100%;
-    
-  
-    &:hover{
-    transition: all 1S;
-    transform: scale(1.1, .1.1) };
-}
-.logos {
-    text-align: center;
-    font-size: 40px; 
-    margin-top: 50px;
-    transition: all 1s; 
-
-}
-      
-.card:hover {
-    transform: scale(1.01, 1.01);
-    transition: all 1s; }
-  
-.bi-facebook:hover {
-    opacity: $opacidadlogo;
-    border-radius:$bordes ; }
-      
-.bi-instagram:hover {
-     opacity: $opacidadlogo;
-     border-radius: $bordes; }
-      
-.bi-whatsapp:hover {
-        opacity: $opacidadlogo;
-        border-radius: $bordes; }
-   
+        margin-top:5px;
+        }
 /*footer*/
 footer{
     width: 100%;
     padding: 50px 0px;
     background-image: url(https://static.vecteezy.com/system/resources/previews/002/091/660/non_2x/abstract-line-white-and-gray-color-modern-background-design-illustration-vector.jpg);
     background-size: cover;
-}
+    }
 .container__footer{
     display: flex;
     flex-wrap: wrap;
@@ -62,9 +34,9 @@ footer{
     margin-top: 20px;
     font-weight: 500;
     color: $color;
-    font-size: 18px;
-     
+    font-size: 18px;  
 }
+
 .box__footer{
     display: flex;
     flex-direction: column;
@@ -81,8 +53,7 @@ footer{
         h2{
             margin-top: $bordes;
             color:$color;
-            font-weight: 700;
-            
+            font-weight: 700;    
         }
     
     .log img{
@@ -109,15 +80,70 @@ a{
 }
 main{
    background: url("foto pag pcpal.jpg");
+   
 }
 main{
     margin-top: $margens;
 }
+.item{
+    width: 450px;
+    height: 350px;
+}
 .video{
     margin-top: 20px;
-    margin-left: 600px;
-    width: 3rem;
     margin-block-end: $margens;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+}
+@media (max-width:480px){
+    .video{
+        width: 95%;
+        margin-top: 5px;
+        margin-left: 10px;
+        
+    }
     
 }
+@media (max-width:480px){
+    .box__footer .terminos{
+        width: 320px;
+    }
+    .box__footer .log img{
+        width: 330px;
+    }
+}
+.mapa{
+    margin-left: 3rem;
+    margin-right: 1rem;
+    width: 95%;
+    height: 100%;
+    margin-block-end: 1rem;
+    
+}
+@media (max-width:2200px){
+    .evento{
+        width: 85%;
+        height: 20%;
+        margin-left: 8rem;
+        margin-top: 10px;
+        
+    }
+}
+@media (max-width:480px){
+    .mapa{
+        margin-left: 0;
+        width: 100%;
+        height: 30%;
+    }  
+    .evento{
+    
+        width: 95%;
+        height: 80%;
+        margin-left: 10px;
+        margin-top: 5px;
+        
+    }
+}
+
 

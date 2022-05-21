@@ -5,6 +5,8 @@
     background-attachment: fixed;
     margin: 0;
     font-family: monospace;
+    max-width: 100%;
+    height: auto;
 }
 .fondoreserva{
     @include fondoreserva;
@@ -54,20 +56,4 @@ textarea{
     form{
         width: 100%;
     }
-}
-.logos{
-    transition: all 1s;
-}
-.bi-facebook:hover{
-    opacity: $opacidadlogo;
-    border-radius: $margens;
-    
-}
-.bi-instagram:hover{
-    opacity: $opacidadlogo;
-    
-}
-.bi-whatsapp:hover{ 
-    opacity: $opacidadlogo
-    
 }
