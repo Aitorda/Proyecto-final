@@ -64,6 +64,15 @@ footer{
 .box__footer a bi{
     font-size: 20px;
 }
+.bi-facebook::before {
+    padding: $paddface;
+}
+.bi-instagram::before{
+    padding: $paddface;
+}
+.bi-whatsapp::before {
+    padding: $paddface;
+}
 .box__copyright{
     max-width: 1200px;
     margin: auto;
