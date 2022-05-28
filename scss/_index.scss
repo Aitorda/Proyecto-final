@@ -95,11 +95,13 @@ main{
     margin-top: $margens;
 }
 .item{
-    width: 450px;
+    width: 400px;
     height: 350px;
 }
 .video{
+    width: 85%;
     margin-top: 20px;
+    margin-left: 160px;
     margin-block-end: $margens;
     display: flex;
     justify-content: space-around;
